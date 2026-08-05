@@ -1,1 +1,1 @@
-console.log("Welcome to Novel World!");
+alert("Welcome to Novel World!");
