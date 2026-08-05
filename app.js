@@ -1,5 +1,11 @@
-let novelName = "The Second Wife Just Wants to Tiger-Mom Her Stepson";
-let chapters = 489;
+let novels = [
+    "Shadow Emperor",
+    "Rebirth of Queen",
+    "Legend of Sword",
+    "The Second Wife Just Wants to Tiger-Mom Her Stepson"
+];
 
-alert("Novel: " + novelName);
-alert("Chapters: " + chapters);
+alert(novels[0]);
+alert(novels[1]);
+alert(novels[2]);
+alert(novels[3]);
