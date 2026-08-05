@@ -1,3 +1,1 @@
-function openNovel() {
-    alert("Opening the novel...");
-}
+function openNovel() {alert("Opening the novel...");}
