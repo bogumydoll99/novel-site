@@ -1,1 +1,3 @@
-alert("Enjoy reading our novels!") 
+function openNovel() {
+    alert("Opening the novel...");
+}
