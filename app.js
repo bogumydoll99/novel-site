@@ -1,1 +1,1 @@
-alert("Welcome to Novel World!");
+alert("Enjoy reading our novels!");
