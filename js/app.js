@@ -10,4 +10,5 @@ novels.forEach(function(novel) {
                 <p>${novel.genre}</p>
                 <a href="novel.html" class="read-btn">Read Now</a>
             </div>
-        </div>});
+            </div>
+                     });
