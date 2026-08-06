@@ -13,9 +13,9 @@ function displayNovels(list) {
                 <div class="card-content">
                     <h3>${novel.title}</h3>
                     <p>${novel.genre}</p>
-                    <a href="novel.html" class="read-btn">Read Now</a>
-                </div>
-            </div>
+                     <a href="novel.html?id=${novel.id}" class="read-btn">Read Now</a>               
+                     </div>
+                     </div>
         `;
 
     });
