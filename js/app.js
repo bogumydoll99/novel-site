@@ -1,11 +1,16 @@
-let novel = {
-    title: "The Second Wife Just Wants to Tiger-Mom Her Stepson",
-    author: "Dudu Cutou",
-    genre: "Historical • Romance • Comedy",
-    chapters: 489
-};
+const container = document.getElementById("novels-container");
 
-alert(novel.title);
-alert(novel.author);
-alert(novel.genre);
-alert(novel.chapters);
+novels.forEach(function(novel) {
+
+    container.innerHTML += `
+        <div class="card">
+            <img src="${novel.image}">
+            <div class="card-content">
+                <h3>${novel.title}</h3>
+                <p>${novel.genre}</p>
+                <a href="novel.html" class="read-btn">Read Now</a>
+            </div>
+        </div>
+    `;
+
+});
