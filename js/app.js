@@ -23,3 +23,16 @@ function displayNovels(list) {
 }
 
 displayNovels(novels);
+search.addEventListener("input", function () {
+
+    const keyword = search.value.toLowerCase();
+
+    const filtered = novels.filter(function (novel) {
+
+        return novel.title.toLowerCase().includes(keyword);
+
+    });
+
+    displayNovels(filtered);
+
+});
